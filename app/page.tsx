@@ -16,7 +16,7 @@ export default function Home() {
     }, 2000);
   };
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between px-24 py-10">
+    <main className="flex min-h-screen flex-col items-center justify-between sm:px-4 md:px-24 py-10">
       <Image
         src="/bg.png"
         alt="Background Image"
@@ -26,7 +26,7 @@ export default function Home() {
         className="absolute z-0 m-50 opacity-50"
       />
 
-      <h1 className="lg:text-4xl md:text-4xl sm:text-3xl font-bold text-amber-600">
+      <h1 className="text-4xl font-bold text-amber-600 m-2">
         Invitation à mon mariage
       </h1>
       <section className="relative z-10 py-24 bg-white/80">
